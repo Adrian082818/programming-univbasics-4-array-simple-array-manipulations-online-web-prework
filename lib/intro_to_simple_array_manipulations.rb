@@ -54,12 +54,20 @@ end
    
    def using_delete(array, string)
      instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
+<<<<<<< HEAD
      array.delete(string)
+=======
+     instructors.delete(steven)
+>>>>>>> 176acc294e18101b44d83e371d2e138c581d1345
    end
     
     def using_delete_at(array, integer) 
     famous_robots = ["Johnny 5", "R2D2", "Robocop"]
+<<<<<<< HEAD
     array.delete_at(2)
+=======
+    famous_robots.delete(famous_robots, 2)
+>>>>>>> 176acc294e18101b44d83e371d2e138c581d1345
   end 
     
     
